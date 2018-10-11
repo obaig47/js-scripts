@@ -2,7 +2,7 @@
 
 ### 1. Updating objects in an immutable way
 **Includes: Destructuring Assignment, Spread operator, Immutable objects, Mutating immutable objects**
-
+```javascript
 const meal = {
   description: 'Dinner',
 };
@@ -33,9 +33,11 @@ const {calories, ...mealWithOutCalories} = mealWithIncreasedCalories;
 
 
 console.log(mealWithOutCalories);
+```
 
-
-### 1. Updating arrays in an immutable way
+### 2. Updating arrays in an immutable way
+**Includes: Map function, Filter function, Unnamed function**
+```javascript
 // 1. Create a constant named friends, which is an array that contains 2 names of your choosing.
 
 const friends = ['Nate', 'Michael'];
@@ -63,3 +65,4 @@ const shorterNamedFriends = updatedFriends.filter(
 // 5. Print each constant to the console.
 
 console.log(friends, updatedFriends, friendNameLengths, shorterNamedFriends);
+```
