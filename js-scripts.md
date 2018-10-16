@@ -126,7 +126,7 @@ console.log(countGroupedByReview);
 ```
 
 ### 5. Introduction to currying
-**Includes: Reduce function**
+**Includes: Higher-Order functions, Closure**
 ```javascript
 function greet(greeting){
   return function(name){
